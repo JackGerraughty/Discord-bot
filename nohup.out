@@ -1,3 +1,6 @@
 [2026-02-19 19:45:54] [INFO    ] discord.client: logging in using static token
 [2026-02-19 19:45:54] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 172130f96ded505110db2a62cf437219).
 [2026-02-19 19:46:44] [WARNING ] discord.gateway: Can't keep up, shard ID None websocket is 35.6s behind.
+[2026-02-19 19:58:39] [WARNING ] discord.gateway: Can't keep up, shard ID None websocket is 37.1s behind.
+[2026-02-19 20:03:12] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-02-19 20:03:18] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: b4a2742be37161d03fd2a27f0e053b2e).

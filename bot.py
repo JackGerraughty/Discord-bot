@@ -36,11 +36,11 @@ async def on_ready():
 async def check(ctx):
     """Checks if the bot is alive and if the song of the day has been found."""
     if SONG_POSTED_TODAY:
-        status_msg = "✅ **Song of the Day has already been posted!** I will NOT ping at 1 PM."
+        status_msg = "✅ **Song of the Day has already been posted!**"
     else:
-        status_msg = "❌ **No song detected yet.** I am scheduled to ping at 1 PM."
+        status_msg = "❌ **No song detected yet.**"
     
-    await ctx.send(f"**Bot Status Report:**\n{status_msg}\nTarget Channel: <#{CHANNEL_ID}>\nTarget Ping: {USER_ID}")
+    await ctx.send(f"**Bot Status Report:**\n{status_msg}\n{USER_ID}")
 
 @bot.event
 async def on_message(message):
