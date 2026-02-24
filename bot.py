@@ -4,6 +4,7 @@ import aiocron
 import os
 from dotenv import load_dotenv
 
+
 # 1. Load environment variables
 load_dotenv()
 
